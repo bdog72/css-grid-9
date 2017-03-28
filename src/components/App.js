@@ -3,7 +3,13 @@ import React, { Component } from 'react'
 export default class App extends Component {
   render () {
     return <div>
-      <h1>Bdog</h1>
+      <h1>Resize the window</h1>
+      <div className='grid'>
+        <div><h2>1</h2></div>
+        <div><h2>2</h2></div>
+        <div><h2>3</h2></div>
+        <div><h2>4</h2></div>
+      </div>
     </div>
   }
 }
