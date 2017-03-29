@@ -27,6 +27,8 @@ body {
   background-color: rgb(101, 230, 11);
   padding-left: 15px;
   border-radius: 20px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .grid > div:nth-child(1) {
@@ -50,4 +52,16 @@ body {
   grid-column: 4 / 6;
   grid-row: 4 / 6;
   background-color: rgb(118, 28, 198);
+}
+
+.grid1 {
+  margin: 100px auto;
+  width: 500px;
+  font: 300%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid1 div {
+  background-color: rgb(186, 155, 108);
 }
