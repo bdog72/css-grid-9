@@ -11,8 +11,10 @@ export default class App extends Component {
         <div><h2>4</h2></div>
       </div>
       <div className='grid1'>
-        <span>Almost</span> before we knew it, we had left the ground.
-        <div className='font'>Font: Hello World</div>
+        <div>1</div>
+        <div>2</div>
+        <div><p className='ab'>Position</p></div>
+        <div>4</div>
       </div>
     </div>
   }
