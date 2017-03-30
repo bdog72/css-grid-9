@@ -16,6 +16,12 @@ export default class App extends Component {
         <div><p className='ab'>Position</p></div>
         <div>4</div>
       </div>
+      <div className='grid2'>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
     </div>
   }
 }
